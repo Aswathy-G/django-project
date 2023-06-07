@@ -1,16 +1,16 @@
-from django.contrib import admin
-from posts.models import Author,Category,Post
+# from django.contrib import admin
+# from posts.models import Author,Category,Post
 
 
-class AuthorAdmin(admin.ModelAdmin):
-    list_display = ("id","name","user")
+# class AuthorAdmin(admin.ModelAdmin):
+#     list_display = ("id","name","user")
 
-admin.site.register(Author)
-admin.site.register(Category)
+# admin.site.register(Author)
+# admin.site.register(Category)
 
-class PostAdmin(admin.ModelAdmin):
-    list_display =("title","author","published_date","short_description")
+# class PostAdmin(admin.ModelAdmin):
+#     list_display =("title","author","published_date","short_description")
 
-admin.site.register(Post, PostAdmin)
+# admin.site.register(Post, PostAdmin)
 
 
